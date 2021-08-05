@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+.weatherApp {
+  border: 1px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 15px;
+}
+
+.btn {
+  border-color: #0069d9;
+  padding: 5px 30px;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+  color: #ffffff;
+}
+
+.btn.current {
+  border-color: #0db397;
+}
+
+.btn.current:hover {
+  background-color: #0db397;
+  color: #ffffff;
+}
+h1 {
+  color: #7c7c7c;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+p {
+  color: #7c7c7c;
+}
+
+span.temperature {
+  color: #000000;
+  font-size: 70px;
+}
+
+li {
+  color: #7c7c7c;
+  font-size: 17px;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.units {
+  font-size: 30px;
+  position: relative;
+  top: -28px;
+}
